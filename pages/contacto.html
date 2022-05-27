@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/inicio.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img id="logo" src="../img/inicio.png" alt=""></div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="contacto">Sigamos en contacto</h2>
+        <div>
+            <a class="instagram" href="https://www.instagram.com/kinoacachi/" target="blank">
+                <img src="../img/ig.png" alt="">
+            </a>
+            <a class="what"
+                    href="https://l.instagram.com/?u=https%3A%2F%2Fwa.link%2Faw35b0&e=ATNrbQMoByhKEGnnPyqYWyipoJnwtgK7irEEga96gvOwamqRd8DXdsvhfsJN2zRSmK4uw5VWjh_pKhyBhJfnVA&s=1"
+                    target="blank">
+                    <img src="../img/wpp2.png" alt="">
+                </a>
+        </div>
+        <p class="formulario">Completá el siguiente formulario </p>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Tu nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Samuel">
+                <label for="apellido">Tu apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Herd">
+                <label for="edad">Tu edad</label>
+                <input type="number" name="edad" id="edad" min="1" max="101">
+            </fieldset>
+
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"
+                placeholder="Ingresa tus comentarios"></textarea>
+            <label for="checkBoletin">Quiero suscribirme a las noticias y novedades</label>
+            <input type="checkbox" name="boletin" id="checkBoletin">
+
+            <fieldset>
+                <legend>Términos y condiciones</legend>
+                <p> Enterate cuales son los <a class="condiciones"
+                        href="https://www.iubenda.com/es/help/37616-que-son-los-terminos-y-condiciones-y-para-que-sirven"
+                        target="blank">términos y condiciones</a></p>
+                  <input type="radio" id="acepta" name="TyC" value="si">
+                  <label for="acepta">Acepto los términos y condiciones</label><br>
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </main>
+
+    <footer><span>Derechos reservados - ki-NOA</span></footer>
+</body>
+
+</html>
