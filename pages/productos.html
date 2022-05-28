@@ -11,164 +11,180 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Sans:wght@300&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Productos</title>
 </head>
 
 <body>
     <header>
-        <div class="logo"><img id="logo" src="../img/inicio.png" alt=""></div>
-        <nav>
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="recetas.html">Recetas</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-
-            </ul>
+        <div class="text-center"><img id="logo" class="rounded" src="../img/inicio.png" alt=""></div>
+        <ul class="nav nav-pills nav-fill  menu">
+            <li class="nav-item">
+                <a class="nav-link light" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/recetas.html">Recetas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+            </li>
+        </ul>
         </nav>
     </header>
-    <main>
-        <title>Listado de Productos</title>
-        <main>
-
-            <div class="grillaproductos">
-                <section class="f1">
-                    <img class="fotos" src="../img/aceites.png">
-                    <img class="fotos" src="../img/cereales.png">
-                    <img class="fotos" src="../img/confituras.png">
-                </section>
-                <div id="listaproductos1">
-
-                    <div class="productos" id="listaproductos1">
-                        <p>Aceite de Coco</p>
-                        <p>Aceite de Oliva (mezcla con girasol)</p>
-                        <p>Aceite de Oliva Extra Virgen</p>
-                        <p>Aceite de Lino Gourmet</p>
-                        <p>Aceite de Chia Gourmet</p>
-                        <p>Aceite de Sésamo Tostado Gourmet</p>
-                    </div>
-                    <div class="productos" id="listaproductos2">
-                        <p>Arroz Integral</p>
-                        <p>Arroz Yamaní</p>
-                        <p>Avena</p>
-                        <p>Almohaditas de Avena Rellenas/p>
-                            <p>Aritos de Avena y Miel</p>
-                            <p>Copos de Maiz</p>
-                            <p>Variedad de Granolas</p>
-                    </div>
-                    <div class="productos" id="listaproductos3">
-                        <p>Almendras con Chocolate</p>
-                        <p>Maní con Chocolate</p>
-                        <p>Pasas con chocolate</p>
-                        <p>Garrapiñadas Artesanales de Maní, Girasol, Nueces y Almendras</p>
-                    </div>
-
-                </div>
-                <section class="f2">
-                    <img class="fotos" src="../img/frutasdeshidratadas.png">
-                    <img class="fotos" src="../img/frutossecos.png">
-                    <img class="fotos" src="../img/harinas.png">
-                </section>
-                <div id="listaproductos2">
-
-                    <div class="productos">
-                        <p>Arándanos Deshidratados</p>
-                        <p>Chips de Banana</p>
-                        <p>Ciruelas Desecadas</p>
-                        <p>Coco Rallado</p>
-                        <p>Dátiles con Carozo</p>
-                        <p>Higos Negros</p>
-                        <p>Pasas morochas</p>
-                        <p>Pasas Rubias</p>
-                        <p>Mix de Frutas Deshidratadas</p>
-                    </div>
-                    <div class="productos">
-                        <p>Almendras</p>
-                        <p>Avellanas</p>
-                        <p>Castañas de Cajú</p>
-                        <p>Maíz Frito</p>
-                        <p>Maní Salado</p>
-                        <p>Maní sin sal</p>
-                        <p>Pistachos con cáscara</p>
-                        <p>Variedad de Mix de Frutos Secos o podés armar el tuyo personalizado</p>
-                    </div>
-                    <div class="productos">
-                        <p>Fecula de Mandioca</p>
-                        <p>Harina de Algarroba</p>
-                        <p>Harina de Almendras</p>
-                        <p>Harina de Arroz</p>
-                        <p>Harina de Avena</p>
-                        <p>Harina de Coco</p>
-                        <p>Harina de Garbanzos</p>
-                        <p>Harina de Centeno</p>
-                        <p>Harina Integral</p>
-                        <p>Premezcla sin TACC</p>
-                    </div>
-
-                </div>
-                <section class="f3">
-                    <img class="fotos" src="../img/infusiones.png">
-                    <img class="fotos" src="../img/leches.png">
-                    <img class="fotos" src="../img/legumbres.png">
-                </section>
-                <div id="listaproductos3">
-                    <div class="productos">
-                        <p>Yerba Mate Despalada (anti acida)</p>
-                        <p>Te verde</p>
-                        <p>Cacao Amargo</p>
-                        <p>Pasta de Maní</p>
-                        <p>Levadura Nutricional</p>
-                    </div>
-                    <div class="productos">
-                        <p>Leche de Almendras Original</p>
-                        <p>Leche de Almendras Sin Azúcar</p>
-                        <p>Leche de Almendras Sabor Vainilla</p>
-                    </div>
-                    <div class="productos">
-                        <p>Garbanzos</p>
-                        <p>Lentejas</p>
-                        <p>Soja Texturizada</p>
-                        <p>Arveja</p>
-                        <p>Poroto Colorado</p>
-                        <p>Poroto Negro</p>
-                        <p>Poroto Aduki</p>
-                        <p>Poroto Alubia</p>
-                        <p>Poroto Mung</p>
-                        <p>Poroto de Soja</p>
-                    </div>
-                </div>
-                <section class="f4">
-                    <img class="fotos" src="../img/sales.png">
-                    <img class="fotos" src="../img/semillas.png">
-                    <img class="fotos" src="../img/celiacos.png">
-                </section>
-                <div id="listaproductos4">
-                    <div class="productos">
-                        <p>Azúcar mascabo</p>
-                        <p>Stevia Líquida Jual</p>
-                        <p>Sal Marina</p>
-                        <p>Sal del Himalaya</p>
-                    </div>
-                    <div class="productos">
-                        <p>Girasol</p>
-                        <p>Chia</p>
-                        <p>Lino</p>
-                        <p>Sésamo Integral</p>
-                        <p>Sésamo Blanco</p>
-                        <p>Zapallo</p>
-                        <p>Mix de Semillas</p>
-                    </div>
-                    <div class="productos">
-                        <p>Dulce de leche con stevia</p>
-                        <p>Mermeladas con stevia de : Frutilla , Durazno, Arándanos, Frutos del Bosque</p>
-                    </div>
-
+    <div class="container">
+        <div class="row">
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/aceites.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Aceite de Coco</p>
+                    <p class="card-text">Aceite de Oliva (mezcla con girasol)</p>
+                    <p class="card-text">Aceite de Oliva Extra Virgen</p>
+                    <p class="card-text">Aceite de Lino Gourmet</p>
+                    <p class="card-text">Aceite de Chia Gourmet</p>
+                    <p class="card-text">Aceite de Sésamo Tostado Gourmet</p>
                 </div>
             </div>
-        </main>
-        <footer><span>Derechos reservados - Ki-NOA</span></footer>
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/cereales.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Arroz Integral</p>
+                    <p class="card-text">Arroz Yamaní</p>
+                    <p class="card-text">Avena</p>
+                    <p class="card-text">Almohaditas de Avena Rellenas</p>
+                    <p class="card-text">Aritos de Avena y Miel</p>
+                    <p class="card-text">Copos de Maiz</p>
+                    <p class="card-text">Variedad de Granolas</p>
+                </div>
+            </div>
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/confituras.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Almendras con Chocolate</p>
+                    <p class="card-text">Maní con Chocolate</p>
+                    <p class="card-text">Pasas con chocolate</p>
+                    <p class="card-text">Garrapiñadas Artesanales de Maní, Girasol, Nueces y Almendras</p>
+                </div>
+            </div>
+
+
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/frutasdeshidratadas.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Arándanos Deshidratados</p>
+                    <p class="card-text">Chips de Banana</p>
+                    <p class="card-text">Ciruelas Desecadas</p>
+                    <p class="card-text">Coco Rallado</p>
+                    <p class="card-text">Dátiles con Carozo</p>
+                    <p class="card-text">Higos Negros</p>
+                    <p class="card-text">Pasas morochas</p>
+                    <p class="card-text">Pasas Rubias</p>
+                    <p class="card-text">Mix de Frutas Deshidratadas</p>
+                </div>
+            </div>
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/frutossecos.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Almendras</p>
+                    <p class="card-text">Avellanas</p>
+                    <p class="card-text">Castañas de Cajú</p>
+                    <p class="card-text">Maíz Frito</p>
+                    <p class="card-text">Maní Salado</p>
+                    <p class="card-text">Maní sin sal</p>
+                    <p class="card-text">Pistachos con cáscara</p>
+                    <p class="card-text">Variedad de Mix de Frutos Secos o podés armar el tuyo personalizado</p>
+                </div>
+            </div>
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/harinas.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Fecula de Mandioca</p>
+                    <p class="card-text">Harina de Algarroba</p>
+                    <p class="card-text">Harina de Almendras</p>
+                    <p class="card-text">Harina de Arroz</p>
+                    <p class="card-text">Harina de Avena</p>
+                    <p class="card-text">Harina de Coco</p>
+                    <p class="card-text">Harina de Garbanzos</p>
+                    <p class="card-text">Harina de Centeno</p>
+                    <p class="card-text">Harina Integral</p>
+                    <p class="card-text">Premezcla sin TACC</p>
+                </div>
+            </div>
+
+
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/infusiones.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Yerba Mate Despalada (anti acida)</p>
+                    <p class="card-text">Te verde</p>
+                    <p class="card-text">Cacao Amargo</p>
+                    <p class="card-text">Pasta de Maní</p>
+                    <p class="card-text">Levadura Nutricional</p>
+                </div>
+            </div>
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/leches.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Leche de Almendras Original</p>
+                    <p class="card-text">Leche de Almendras Sin Azúcar</p>
+                    <p class="card-text">Leche de Almendras Sabor Vainilla</p>
+                </div>
+            </div>
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/legumbres.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Garbanzos</p>
+                    <p class="card-text">Lentejas</p>
+                    <p class="card-text">Soja Texturizada</p>
+                    <p class="card-text">Arveja</p>
+                    <p class="card-text">Poroto Colorado</p>
+                    <p class="card-text">Poroto Negro</p>
+                    <p class="card-text">Poroto Aduki</p>
+                    <p class="card-text">Poroto Alubia</p>
+                    <p class="card-text">Poroto Mung</p>
+                    <p class="card-text">Poroto de Soja</p>
+                </div>
+            </div>
+ 
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/sales.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Azúcar mascabo</p>
+                    <p class="card-text">Stevia Líquida Jual</p>
+                    <p class="card-text">Sal Marina</p>
+                    <p class="card-text">Sal del Himalaya</p>
+                </div>
+            </div>
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/semillas.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Girasol</p>
+                    <p class="card-text">Chia</p>
+                    <p class="card-text">Lino</p>
+                    <p class="card-text">Sésamo Integral</p>
+                    <p class="card-text">Sésamo Blanco</p>
+                    <p class="card-text">Zapallo</p>
+                    <p class="card-text">Mix de Semillas</p>
+                </div>
+            </div>
+            <div class="card col-md-6 col-lg-4 col-xl-4" >
+                <img src="../img/celiacos.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">Dulce de leche con stevia</p>
+                    <p class="card-text">Mermeladas con stevia de : Frutilla , Durazno, Arándanos, Frutos del Bosque
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer><span>Derechos reservados - Ki-NOA</span></footer>
 </body>
 
 </html>
