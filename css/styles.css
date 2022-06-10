@@ -25,17 +25,11 @@ img#logo{
     margin-bottom: 10px;
     margin-left: 561px;
 }
-.menu li {
-    background-color: #6D8B1D;
-    border: 1px solid black;
-    font-size: 25px;
-    margin-left: 2px;
-    font-weight: 1000;
+.menu{
+    font-family: "Amatic SC";
+    font-size: large;
 }
-a {
-    text-decoration: none;
-    font-family: "Amatic SC"
-}
+    
 
 
 
