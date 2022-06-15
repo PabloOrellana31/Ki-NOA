@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eff0de;
+    }
+footer{
+    grid-area: footer;
+    font-family: "Josefin Sans";
+    font-size: x-large;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+img#logo{
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 150px;
+   margin-left: 65px;
+}
+.logo {
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 561px;
+}
+.menu{
+    font-family: "Amatic SC";
+    font-size: large;
+}
+    
+
+
+
+
+
+/*Pgina inicio*/
+.bienvenidos {
+    font-size: 50px;
+    font-family: "Josefin Sans";
+    border-width: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;    
+}
+.ruta{
+    height: auto;
+    width: auto;
+    max-width: 410px;
+    max-height: 410px;
+   margin-left: 70px;
+   margin-bottom: 80px;
+}
+.subtitulo{
+    font-size: 40px;
+    font-family: "Josefin Sans";
+    border-width: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.introduccion {
+    font-family: "Josefin Sans";
+    font-size: large;
+    margin-bottom: 300px;}
+
+
+
+
+
+
+
+
+
+/* pagina productos*/
+
+.card{
+    font-family: "Josefin Sans";
+    font-weight: 500;
+}
+.fotos{
+    max-width: 400px;
+    max-height: 300px;
+}
+
+
+
+
+
+
+
+
+
+/* pagina galeria*/
+
+.galeria1{
+    font-size: 50px;
+    font-family: "Josefin Sans";
+    border-width: 5px;
+    margin-top: 50px;
+    text-align: center;
+}
+.galeria2{
+    font-size: 50px;
+    font-family: "Josefin Sans";
+    border-width: 5px;
+    margin-top: 60px;
+    text-align: center;
+}
+.fotogaleria1{
+    margin-top: 40px;
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 300px;
+    margin-left: 70px;
+    margin-right: 190px;
+}
+.fotogaleria2{
+    margin-top: 40px;
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 300px;
+    margin-right: 80px;
+}
+.fotogaleria3{
+    margin-top: 40px;
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 300px;
+    margin-left: 95px;
+}
+iframe{
+    max-width: 400px;
+    max-height: 700px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+/* Pagina recetas*/
+.recetas li{
+    display: inline;
+    padding: 90px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+
+
+
+
+
+/* pagina contacto*/
+
+.contacto{
+    font-size: 50px;
+    font-family: "Josefin Sans";
+    border-width: 5px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;  
+}
+.instagram{
+    margin-top: 40px;
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 80px;
+    margin-left: 200px;
+}
+.what{
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 80px;
+    margin-left: 200px;
+}
+.formulario{
+    font-size: 30px;
+    font-family: "Josefin Sans";
+    border-width: 5px;
+    margin-top: 60px;
+    margin-left: 465px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+.condiciones{
+    font-family: 'Times New Roman', Times, serif;
+}
