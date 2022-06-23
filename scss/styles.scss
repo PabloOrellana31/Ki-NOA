@@ -9,25 +9,28 @@
 
 body {
     background-color: $colorfondo1;
-    }
-footer{
+}
+
+footer {
     font-family: $fuente2;
     font-size: x-large;
     margin-top: 200px;
     margin-left: 10px;
 }
-img#logo{
+
+img#logo {
     height: auto;
     width: auto;
     max-width: 150px;
     max-height: 150px;
-   margin-left: 65px;
+    margin-left: 65px;
 }
-.menu{
+
+.menu {
     font-family: $fuente1;
     font-size: large;
 }
-    
+
 
 
 
@@ -40,28 +43,35 @@ img#logo{
     border-width: 5px;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
-.subtitulo{
+
+.subtitulo {
     font-size: 40px;
     font-family: $fuente2;
     border-width: 5px;
     text-align: center;
     margin-bottom: 15px;
 }
+
 .introduccion {
     font-family: $fuente2;
     font-size: large;
-    margin-bottom: 300px;}
+    margin-bottom: 300px;
+}
+
+
+
 
 
 /* pagina productos*/
 
-.card{
+.card {
     font-family: $fuente2;
     font-weight: 500;
 }
-.fotos{
+
+.fotos {
     max-width: 400px;
     max-height: 300px;
 }
@@ -76,21 +86,23 @@ img#logo{
 
 /* pagina galeria*/
 
-.galeria1{
+.galeria1 {
     font-size: 50px;
     font-family: $fuente2;
     border-width: 5px;
     margin-top: 50px;
     text-align: center;
 }
-.galeria2{
+
+.galeria2 {
     font-size: 50px;
     font-family: $fuente2;
     border-width: 5px;
     margin-top: 60px;
     text-align: center;
 }
-.fotogaleria1{
+
+.fotogaleria1 {
     margin-top: 40px;
     height: auto;
     width: auto;
@@ -99,7 +111,8 @@ img#logo{
     margin-left: 70px;
     margin-right: 190px;
 }
-.fotogaleria2{
+
+.fotogaleria2 {
     margin-top: 40px;
     height: auto;
     width: auto;
@@ -107,7 +120,8 @@ img#logo{
     max-height: 300px;
     margin-right: 80px;
 }
-.fotogaleria3{
+
+.fotogaleria3 {
     margin-top: 40px;
     height: auto;
     width: auto;
@@ -124,10 +138,10 @@ img#logo{
 
 /* Pagina recetas*/
 
-.recetasvideos{
+.recetasvideos {
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -136,15 +150,16 @@ img#logo{
 
 /* pagina contacto*/
 
-.contacto{
+.contacto {
     font-size: 50px;
     font-family: $fuente2;
     border-width: 5px;
     margin-top: 60px;
     margin-bottom: 20px;
-    text-align: center;  
+    text-align: center;
 }
-.instagram{
+
+.instagram {
     margin-top: 40px;
     height: auto;
     width: auto;
@@ -153,7 +168,8 @@ img#logo{
     margin-right: 80px;
     margin-left: 200px;
 }
-.what{
+
+.what {
     margin-top: 10px;
     height: auto;
     width: auto;
@@ -162,7 +178,8 @@ img#logo{
     margin-right: 80px;
     margin-left: 200px;
 }
-.formulario{
+
+.formulario {
     font-size: 30px;
     font-family: $fuente2;
     border-width: 5px;
@@ -171,7 +188,3 @@ img#logo{
     margin-bottom: 20px;
     margin-right: 100px;
 }
-.condiciones{
-    font-family: 'Times New Roman', Times, serif;
-}
-
