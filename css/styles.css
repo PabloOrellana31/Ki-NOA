@@ -6,7 +6,6 @@ body {
   background-color: #eff0de; }
 
 footer {
-  grid-area: footer;
   font-family: "Josefin Sans";
   font-size: x-large;
   margin-top: 200px;
@@ -18,11 +17,6 @@ img#logo {
   max-width: 150px;
   max-height: 150px;
   margin-left: 65px; }
-
-.logo {
-  margin-right: 100px;
-  margin-bottom: 10px;
-  margin-left: 561px; }
 
 .menu {
   font-family: "Amatic SC";
@@ -37,14 +31,6 @@ img#logo {
   margin-top: 30px;
   margin-bottom: 20px; }
 
-.ruta {
-  height: auto;
-  width: auto;
-  max-width: 410px;
-  max-height: 410px;
-  margin-left: 70px;
-  margin-bottom: 80px; }
-
 .subtitulo {
   font-size: 40px;
   font-family: "Josefin Sans";
@@ -54,8 +40,7 @@ img#logo {
 
 .introduccion {
   font-family: "Josefin Sans";
-  font-size: large;
-  margin-bottom: 300px; }
+  font-size: large; }
 
 /* pagina productos*/
 .card {
@@ -123,30 +108,11 @@ img#logo {
 
 .instagram {
   margin-top: 40px;
-  height: auto;
-  width: auto;
-  max-width: 100px;
-  max-height: 100px;
-  margin-right: 80px;
-  margin-left: 200px; }
+  max-width: 700px;
+  max-height: 700px; }
 
 .what {
-  margin-top: 10px;
-  height: auto;
-  width: auto;
-  max-width: 100px;
-  max-height: 100px;
-  margin-right: 80px;
-  margin-left: 200px; }
-
-.formulario {
-  font-size: 30px;
-  font-family: "Josefin Sans";
-  border-width: 5px;
-  margin-top: 60px;
-  margin-left: 465px;
-  margin-bottom: 20px;
-  margin-right: 100px; }
-
-.condiciones {
-  font-family: 'Times New Roman', Times, serif; }
+  margin-top: 40px;
+  max-width: 800px;
+  max-height: 800px;
+  margin-left: 60%; }

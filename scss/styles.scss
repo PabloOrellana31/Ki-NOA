@@ -1,7 +1,6 @@
 @import 'variables';
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,7 @@ body {
 }
 
 footer {
-    font-family: "Josefin Sans";
+    font-family: $fuente2;
     font-size: x-large;
     margin-top: 200px;
     margin-left: 10px;
@@ -39,7 +38,7 @@ img#logo {
 /*Pgina inicio*/
 .bienvenidos {
     font-size: 50px;
-    font-family: "Josefin Sans";
+    font-family: $fuente2;
     border-width: 5px;
     text-align: center;
     margin-top: 30px;
@@ -48,14 +47,14 @@ img#logo {
 
 .subtitulo {
     font-size: 40px;
-    font-family: "Josefin Sans";
+    font-family: $fuente2;
     border-width: 5px;
     text-align: center;
     margin-bottom: 15px;
 }
 
 .introduccion {
-    font-family: "Josefin Sans";
+    font-family: $fuente2;
     font-size: large;
 }
 
@@ -65,7 +64,7 @@ img#logo {
 /* pagina productos*/
 
 .card {
-    font-family: "Josefin Sans";
+    font-family: $fuente2;
     font-weight: 500;
 }
 
@@ -86,7 +85,7 @@ img#logo {
 
 .galeria1 {
     font-size: 50px;
-    font-family: "Josefin Sans";
+    font-family: $fuente2;
     border-width: 5px;
     margin-top: 50px;
     text-align: center;
@@ -94,7 +93,7 @@ img#logo {
 
 .galeria2 {
     font-size: 50px;
-    font-family: "Josefin Sans";
+    font-family: $fuente2;
     border-width: 5px;
     margin-top: 60px;
     text-align: center;
@@ -150,7 +149,7 @@ img#logo {
 
 .contacto {
     font-size: 50px;
-    font-family: "Josefin Sans";
+    font-family: $fuente2;
     border-width: 5px;
     margin-top: 60px;
     margin-bottom: 20px;
@@ -159,12 +158,13 @@ img#logo {
 
 .instagram {
     margin-top: 40px;
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 700px;
+    max-height: 700px;
 }
 
 .what {
-    margin-top: 10px;
-    max-width: 50px;
-    max-height: 50px;
+    margin-top: 40px;
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: 60%;
 }
