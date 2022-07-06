@@ -15,12 +15,14 @@ img#logo {
   height: auto;
   width: auto;
   max-width: 150px;
-  max-height: 150px;
-  margin-left: 65px; }
+  max-height: 150px; }
 
 .menu {
   font-family: "Amatic SC";
   font-size: large; }
+
+.carrito {
+  color: #6b8220; }
 
 /*Pgina inicio*/
 .bienvenidos {
@@ -36,7 +38,8 @@ img#logo {
   font-family: "Josefin Sans";
   border-width: 5px;
   text-align: center;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  margin-top: 30px; }
 
 .introduccion {
   font-family: "Josefin Sans";
@@ -107,12 +110,9 @@ img#logo {
   text-align: center; }
 
 .instagram {
-  margin-top: 40px;
-  max-width: 700px;
-  max-height: 700px; }
+  max-width: 200px;
+  max-height: 200px; }
 
 .what {
-  margin-top: 40px;
-  max-width: 800px;
-  max-height: 800px;
-  margin-left: 60%; }
+  max-width: 200px;
+  max-height: 200px; }

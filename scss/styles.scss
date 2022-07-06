@@ -22,12 +22,14 @@ img#logo {
     width: auto;
     max-width: 150px;
     max-height: 150px;
-    margin-left: 65px;
 }
 
 .menu {
     font-family: $fuente1;
     font-size: large;
+}
+.carrito{
+    color: #6b8220
 }
 
 
@@ -51,6 +53,7 @@ img#logo {
     border-width: 5px;
     text-align: center;
     margin-bottom: 15px;
+    margin-top: 30px;
 }
 
 .introduccion {
@@ -157,14 +160,11 @@ img#logo {
 }
 
 .instagram {
-    margin-top: 40px;
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .what {
-    margin-top: 40px;
-    max-width: 800px;
-    max-height: 800px;
-    margin-left: 60%;
+    max-width: 200px;
+    max-height: 200px;
 }
