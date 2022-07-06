@@ -29,7 +29,7 @@ img#logo {
     font-size: large;
 }
 .carrito{
-    color: #6b8220
+    color: $colorsegundo;
 }
 
 
@@ -66,84 +66,13 @@ img#logo {
 
 /* pagina productos*/
 
-.card {
-    font-family: $fuente2;
-    font-weight: 500;
-}
-
-.fotos {
-    max-width: 400px;
-    max-height: 300px;
-}
-
-
-
-
-
-
-
 
 
 /* pagina galeria*/
 
-.galeria1 {
-    font-size: 50px;
-    font-family: $fuente2;
-    border-width: 5px;
-    margin-top: 50px;
-    text-align: center;
-}
-
-.galeria2 {
-    font-size: 50px;
-    font-family: $fuente2;
-    border-width: 5px;
-    margin-top: 60px;
-    text-align: center;
-}
-
-.fotogaleria1 {
-    margin-top: 40px;
-    height: auto;
-    width: auto;
-    max-width: 400px;
-    max-height: 300px;
-    margin-left: 70px;
-    margin-right: 190px;
-}
-
-.fotogaleria2 {
-    margin-top: 40px;
-    height: auto;
-    width: auto;
-    max-width: 400px;
-    max-height: 300px;
-    margin-right: 80px;
-}
-
-.fotogaleria3 {
-    margin-top: 40px;
-    height: auto;
-    width: auto;
-    max-width: 400px;
-    max-height: 300px;
-    margin-left: 95px;
-}
-
-
-
-
-
 
 
 /* Pagina recetas*/
-
-.recetasvideos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 
 
 
