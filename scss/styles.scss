@@ -12,7 +12,7 @@ body {
 }
 
 footer {
-    font-family: $fuente2;
+    font-family: "Josefin Sans";
     font-size: x-large;
     margin-top: 200px;
     margin-left: 10px;
@@ -39,7 +39,7 @@ img#logo {
 /*Pgina inicio*/
 .bienvenidos {
     font-size: 50px;
-    font-family: $fuente2;
+    font-family: "Josefin Sans";
     border-width: 5px;
     text-align: center;
     margin-top: 30px;
@@ -48,14 +48,14 @@ img#logo {
 
 .subtitulo {
     font-size: 40px;
-    font-family: $fuente2;
+    font-family: "Josefin Sans";
     border-width: 5px;
     text-align: center;
     margin-bottom: 15px;
 }
 
 .introduccion {
-    font-family: $fuente2;
+    font-family: "Josefin Sans";
     font-size: large;
     margin-bottom: 300px;
 }
@@ -63,11 +63,10 @@ img#logo {
 
 
 
-
 /* pagina productos*/
 
 .card {
-    font-family: $fuente2;
+    font-family: "Josefin Sans";
     font-weight: 500;
 }
 
@@ -88,7 +87,7 @@ img#logo {
 
 .galeria1 {
     font-size: 50px;
-    font-family: $fuente2;
+    font-family: "Josefin Sans";
     border-width: 5px;
     margin-top: 50px;
     text-align: center;
@@ -96,7 +95,7 @@ img#logo {
 
 .galeria2 {
     font-size: 50px;
-    font-family: $fuente2;
+    font-family: "Josefin Sans";
     border-width: 5px;
     margin-top: 60px;
     text-align: center;
@@ -152,7 +151,7 @@ img#logo {
 
 .contacto {
     font-size: 50px;
-    font-family: $fuente2;
+    font-family: "Josefin Sans";
     border-width: 5px;
     margin-top: 60px;
     margin-bottom: 20px;
@@ -177,14 +176,4 @@ img#logo {
     max-height: 100px;
     margin-right: 80px;
     margin-left: 200px;
-}
-
-.formulario {
-    font-size: 30px;
-    font-family: $fuente2;
-    border-width: 5px;
-    margin-top: 60px;
-    margin-left: 465px;
-    margin-bottom: 20px;
-    margin-right: 100px;
 }
